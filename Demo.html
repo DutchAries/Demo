@@ -1,1 +1,36 @@
-Hello
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <div>
+        <p id="charat">Selecteer de 6e letter uit deze zin.</p>
+        <p>
+            De 6e letter is een
+        </p>
+        <div id="letter"></div>
+        <button onclick="btn()">chartat</button>
+    </div>
+    <div>
+        <p>plak deze twee woorden aan elkaar</p>
+        <p>Sea</p>
+        <p>Food</p>
+        <button onclick="btn1()">concat</button>
+        <p id="concat"></p>
+    </div>
+    <div>
+        <p>Vergelijk het laatste woord</p>
+        <button onclick="btn2()">endsWith</button>
+        <p id="demo"></p>
+    </div>
+</body>
+<script src="myScript.js"></script>
+
+</html>
